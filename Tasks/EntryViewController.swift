@@ -45,6 +45,8 @@ class EntryViewController: UIViewController, UITextFieldDelegate {
 
         update?()
         
+        print("What are you waitng for.....")
+        
         navigationController?.popViewController(animated: true)
         
     }
